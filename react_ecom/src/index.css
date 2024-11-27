@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  font-size: 18px;
+}
+
+.navbar a.navbar-brand {
+  font-size: 28px;
+}
+
+.navbar-nav a,
+.buttons a {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.buttons a,
+.navbar-nav a.active {
+  color: #000;
+}
+
+.buttons button:hover a {
+  color: #fff;
+}
+
+.proucts .card-title,
+.proucts p.card-text {
+  display: -webkit-box;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.proucts .card-title {
+  -webkit-line-clamp: 1;
+  font-size: 20px;
+}
+
+.proucts p.card-text {
+  -webkit-line-clamp: 2;
+  font-size: 16px;
+}
+.proucts .card{
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* single product page css */
+@media (min-width : 991px) {
+  .w-md-75{
+    width: 75% !important;
+  }
+  
+}
